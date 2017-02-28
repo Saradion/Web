@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tp3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tp3_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tp3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tp3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 3.5.4-3.5.4" />
+          <element id="library" level="project" name="JPA 2.1-2.1" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
